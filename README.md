@@ -20,8 +20,6 @@ document are to be interpreted as described in [RFC2119].
 
 ## Definitions
 
-Definitions
-
 JavaScript Object Notation (JSON), and the terms object, name, value, array,
 number, true, false, and null are to be interpreted as defined in [RFC7159].
 
