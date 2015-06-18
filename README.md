@@ -61,7 +61,7 @@ The `buffer` member contains tile data. The encoding of map data is as such:
   is **gzip deflated** and then **base64 encoded**.
 
 ```json
-{"z":Z,"x":X,"y":Y,"buffer":""}
+{"z":10,"x":1,"y":2,"buffer":""}
 ```
 
 ## Examples
@@ -102,3 +102,8 @@ JSONBREAKFASTTIME
 
 * [make_cereal](examples/make_cereal.js): example of generating serialtiles
   from node.js
+
+## Implementations
+
+An unofficial list of implementations is
+maintained [in the wiki of the serialtiles-spec GitHub project](https://github.com/mapbox/serialtiles-spec/wiki/Implementations)
