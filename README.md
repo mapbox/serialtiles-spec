@@ -56,7 +56,7 @@ The `buffer` member contains tile data. The encoding of map data is as such:
 
 * Raster data, including PNG, JPEG, GIF, WebP is **base64 encoded**
 * Protocol buffer data, including [Mapbox Vector Tiles](https://www.mapbox.com/developers/vector-tiles/),
-  is **gzip deflated** and then **base64 encoded**.
+  is **gzip compressed** and then **base64 encoded**.
 
 ```json
 {"z":10,"x":1,"y":2,"buffer":""}
