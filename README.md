@@ -7,7 +7,7 @@ and receiver to process the upload without holding the entire thing in memory
 or waiting for completion.
 
 Unlike MBTiles, serialtiles is a text format, not a binary format: it is a
-transmission of [line-delimited JSON](https://en.wikipedia.org/wiki/Line_Delimited_JSON).
+transmission of [line-delimited JSON](https://en.wikipedia.org/wiki/JSON_Streaming#Line_delimited_JSON).
 Binary contents of tiles, like raster images and protocol buffer-encoded
 vectors, are [base64](https://en.wikipedia.org/wiki/Base64) encoded in
 order to be safe for this transport.
@@ -26,7 +26,7 @@ number, true, false, and null are to be interpreted as defined in [RFC7159].
 ## Specification
 
 serialtiles is a stream and thus is documented in order that it appears. Any
-other order is invalid. serialtiles is a subset of [line-delimited JSON](https://en.wikipedia.org/wiki/Line_Delimited_JSON):
+other order is invalid. serialtiles is a subset of [line-delimited JSON](https://en.wikipedia.org/wiki/JSON_Streaming#Line_delimited_JSON):
 each item is separated by a linebreak.
 
 ### Header
